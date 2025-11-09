@@ -8,17 +8,24 @@ import AddPG from "./pages/AddPG";
 function App() {
 
   return (
-  <div>
-    <Navbar/>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/pg/:id" element={<PGDetails/>}/>
-        <Route path="/add" element={<AddPG/>}/>
-      </Routes>
+  <BrowserRouter>
+      <div className="flex flex-col min-h-screen bg-gray-50">
+        {/* Navbar stays on top */}
+        <Navbar />
+
+        {/* Page content area */}
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/pg/:id" element={<PGDetails />} />
+            <Route path="/add" element={<AddPG />} />
+          </Routes>
+        </main>
+
+        {/* Footer stays at bottom */}
+        <Footer />
+      </div>
     </BrowserRouter>
-    <Footer/>
-  </div>
   )
 }
 

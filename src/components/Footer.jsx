@@ -1,7 +1,7 @@
 function Footer(){
 return (
-    <footer>
-      <p>© {new Date().getFullYear()} PG Finder. All rights reserved.</p>
+    <footer className="bg-blue-600 text-white py-4 text-center">
+      <p>© {new Date().getFullYear()} PG Finder. All Rights Reserved.</p>
     </footer>
   );
 }

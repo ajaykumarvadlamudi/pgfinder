@@ -1,8 +1,12 @@
+import { useNavigate } from "react-router-dom";
+import { pgList } from "../data/pgdata";
+import PGGrid from "../components/PGGrid";
+import HeroSection from "../components/HeroSection";
 function Home() {
   return (
-    <div>
-      <h1>Welcome to PG Finder</h1>
-      <p>Find your perfect PG near your office or college.</p>
+    <div className="bg-gray-50 min-h-screen">
+      <HeroSection/>
+      <PGGrid />
     </div>
   );
 }
