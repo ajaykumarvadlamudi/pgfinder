@@ -3,7 +3,7 @@ export const pgList = [
     id: 1,
     name: "Sunshine PG",
     location: "Annojiguda, Hyderabad",
-    image: "https://images.unsplash.com/photo-1615874959474-d609969a2d3b?auto=format&fit=crop&w=800&q=80",
+    image: "https://d2bxpw04qb5rhq.cloudfront.net/production/property_image/image/109440/f35be59043b84a76aa5d1b6f3b65fb31bd7a2ed1298d2a19c8dde7ded4042d307bc39952c341865c/large_74c1619c-ccbd-4c3b-95b8-afaa7a85c4c7.jpg",
     description:
       "Located near Infosys DC, Sunshine PG offers clean rooms, high-speed WiFi, and home-style meals.",
     sharingOptions: [
@@ -25,7 +25,7 @@ export const pgList = [
     id: 2,
     name: "GreenView PG",
     location: "Gachibowli, Hyderabad",
-    image: "https://images.unsplash.com/photo-1600047500125-6b8c1e1e87c9?auto=format&fit=crop&w=800&q=80",
+    image: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/613750746.jpg?k=aa4452943fa4cde50d762708e43dee4087c2bb702d1a2de791439623946569c0&o=",
     description:
       "GreenView PG is ideal for IT professionals, offering peaceful surroundings and healthy food.",
     sharingOptions: [
@@ -46,7 +46,7 @@ export const pgList = [
     id: 3,
     name: "CityNest PG",
     location: "Madhapur, Hyderabad",
-    image: "https://images.unsplash.com/photo-1600585154207-283d0b5a7cf9?auto=format&fit=crop&w=800&q=80",
+    image: "https://content.jdmagicbox.com/v2/comp/hyderabad/i2/040pxx40.xx40.230613042038.h3i2/catalogue/k-n-reddy-pg-for-women-s-gowlidoddy-hyderabad-dormitory-services-y3RAEBxBsu.jpg",
     description:
       "Modern accommodation with AC rooms, power backup, and weekend cleaning service.",
     sharingOptions: [
