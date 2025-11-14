@@ -5,6 +5,9 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import PGDetails from "./pages/PGDetails";
 import AddPG from "./pages/AddPG";
+import Login from './pages/Login';
+import Register from './pages/Register';
+import ForgetPassword from './pages/ForgetPassword';
 function App() {
 
   return (
@@ -19,6 +22,10 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/pg/:id" element={<PGDetails />} />
             <Route path="/add" element={<AddPG />} />
+            <Route path= "/login" element={<Login/>}/>
+            <Route path= "/register" element={<Register/>}/>
+            <Route path="/forgot-password" element={<ForgetPassword />} />
+
           </Routes>
         </main>
 

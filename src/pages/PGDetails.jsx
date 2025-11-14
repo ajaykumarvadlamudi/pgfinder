@@ -21,9 +21,9 @@ function PGDetails() {
         setMessage(`You booked a ${type}-Sharing room successfully!`);
         setShowToast(true);
         setTimeout(() => {
-        setShowToast(false);
-        setMessage("");
-    }, 3000);
+          setShowToast(false);
+          setMessage("");
+          }, 3000);
   }
   return (
     <div className="container mx-auto px-4 py-8 max-w-4xl">
